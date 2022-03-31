@@ -5,8 +5,8 @@ export default function Lend() {
     return(
         <div className='main-section'>
             <div className='discription'>
-                <p>The one and only LP community.</p>
-                <p>Linking projects to Liquidity & doubling profit for LPs.</p>
+                <p>The ONE & ONLY LP community.</p>
+                <p>A DeFi primitive for AMM liquidity providing that solves the liquidity challenge for token and doubles ROI for capital.</p>
             </div>
             <img src={MainImg} alt='Main'/>
             <div className='footer-text'>
