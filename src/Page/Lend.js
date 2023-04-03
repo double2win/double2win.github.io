@@ -13,19 +13,6 @@ const descriptorContract = new ethers.Contract(
   provider
 );
 
-function MergeSvgAndImage({ svgString, image }) {
-    return (
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="100%">
-          <foreignObject width="100%" height="100%">
-            <img src={image} alt="Embedded Image"/>
-          </foreignObject>
-          <g dangerouslySetInnerHTML={{ __html: svgString }} className="sub-container"/>
-        </svg>
-      </div>
-    );
-}
-
 export default function Lend() {
   const [svgImage, setSVGImage] = useState("");
 
@@ -56,10 +43,9 @@ export default function Lend() {
           challenge for token and doubles ROI for capital.
         </p>
       </div>
-      <div>
-        {/* <MergeSvgAndImage image={MainImg} svgString={svgImage} className="main-image"/> */}
-        <img src={MainImg} alt="Main" className="main-image"/>
-        <div dangerouslySetInnerHTML={{ __html: svgImage }} className="sub-container"/>
+      <div class="container">
+        <img src={MainImg} alt="Main"/>
+        <div dangerouslySetInnerHTML={{ __html: svgImage }} className="svg-container"/>
       </div>
       <div className="footer-text">
         <a
