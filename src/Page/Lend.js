@@ -15,13 +15,18 @@ const descriptorContract = new ethers.Contract(
 
 export default function Lend() {
   const [svgImage, setSVGImage] = useState("");
+  const [opacity, setOpacity] = useState(1);
 
   useEffect(() => {
     const generateSVGImage = async () => {
         const tokenID = Math.floor(Math.random() * 10000 + 1);
         const tokenImage = await descriptorContract.generateSVGImage(tokenID);
         const decodedImage = atob(tokenImage);
-        setSVGImage(decodedImage);
+        setOpacity(0);
+        setTimeout(() => {
+          setSVGImage(decodedImage);
+          setOpacity(1);
+        }, 500);
     }
     const intervalId = setInterval(async () => {
         await generateSVGImage();
@@ -34,6 +39,11 @@ export default function Lend() {
     };
   }, []);
 
+  const style = {
+    opacity: opacity,
+    transition: 'opacity 0.5s ease'
+  };
+
   return (
     <div className="main-section">
       <div className="discription">
@@ -45,7 +55,7 @@ export default function Lend() {
       </div>
       <div class="container">
         <img src={MainImg} alt="Main"/>
-        <div dangerouslySetInnerHTML={{ __html: svgImage }} className="svg-container"/>
+        <div dangerouslySetInnerHTML={{ __html: svgImage }} className="svg-container" style={style}/>
       </div>
       <div className="footer-text">
         <a
