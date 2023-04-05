@@ -6,7 +6,7 @@ import DescriiptorABI from "../abi/Descriptor.json";
 const provider = new ethers.providers.JsonRpcProvider(
   "https://goerli.infura.io/v3/a1ac3a707d90454eb92624852b96e497"
 );
-const CONTRACT_ADDR = "0x5Ecf59189c24286E5397805Bb5b06c0eD0ca5382";
+const CONTRACT_ADDR = "0xC066540F305978B391D802d0fC863b8174dd8383";
 const descriptorContract = new ethers.Contract(
   CONTRACT_ADDR,
   DescriiptorABI,
