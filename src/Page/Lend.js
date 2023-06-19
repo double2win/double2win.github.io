@@ -47,13 +47,13 @@ export default function Lend() {
   return (
     <div className="main-section">
       <div className="discription">
-        <p>The ONE & ONLY LP community.</p>
+        <p>The ONE & ONLY AMM LP community.</p>
         <p>
           A DeFi primitive for AMM liquidity providing that solves the liquidity
           challenge for token and doubles ROI for capital.
         </p>
       </div>
-      <div class="container">
+      <div className="container">
         <img src={MainImg} alt="Main"/>
         <div dangerouslySetInnerHTML={{ __html: svgImage }} className="svg-container" style={style}/>
       </div>
@@ -64,7 +64,7 @@ export default function Lend() {
           rel="noreferrer"
           style={{ textDecoration: "none", color: "black" }}
         >
-          <span>Let's Double-To-Win!</span>
+          <span>Double Down to Genesis on Celo</span>
         </a>
       </div>
     </div>
