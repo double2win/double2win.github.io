@@ -59,7 +59,7 @@ export default function Lend() {
       </div>
       <div className="footer-text">
         <a
-          href="https://medium.com/@double2win/double-to-win-e38001f46e2e"
+          href="https://medium.com/@double2win/double-down-to-genesis-on-celo-be46547d22cf"
           target="_blank"
           rel="noreferrer"
           style={{ textDecoration: "none", color: "black" }}
