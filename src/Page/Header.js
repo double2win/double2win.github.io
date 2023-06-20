@@ -14,9 +14,9 @@ export function Header() {
             <div className="social-icons">
                 <div className="social-icon"><a href="https://discord.gg/ycyr8Fp3Wu" target="_blank" rel="noreferrer"><img src={Discord} alt='discord'/></a></div>
                 <div className="social-icon"><a href="https://twitter.com/double2winwin" target="_blank" rel="noreferrer"><img src={Twitter} alt='twitter'/></a></div>
-                <div className="social-icon"><a href="https://double2win.medium.com" target="_blank" rel="noreferrer"><img src={Medium} alt='medium'/></a></div>
-                <div className="social-icon"><a href="https://double2win.medium.com" target="_blank" rel="noreferrer"><img src={Doc} alt='doc'/></a></div>
-                <a className={'primary-button'} href="https://app.beta.double2win.xyz/">
+                <div className="social-icon"><a href="https://medium.com/@double2win/double-down-to-genesis-on-celo-be46547d22cf" target="_blank" rel="noreferrer"><img src={Medium} alt='medium'/></a></div>
+                <div className="social-icon"><a href="https://www.double2win.xyz/docs/" target="_blank" rel="noreferrer"><img src={Doc} alt='doc'/></a></div>
+                <a className={'primary-button'} href="https://app.double2win.xyz/">
                     <p>{'Launch App'}</p>
                 </a>
             </div>
