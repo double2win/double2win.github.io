@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/double2win.github.io/static/css/main.0310eab4.css",
-    "main.js": "/double2win.github.io/static/js/main.0c51adf2.js",
+    "main.css": "/double2win.github.io/static/css/main.ffc9c2df.css",
+    "main.js": "/double2win.github.io/static/js/main.085165d2.js",
     "static/js/787.3e575537.chunk.js": "/double2win.github.io/static/js/787.3e575537.chunk.js",
     "static/media/Background.svg": "/double2win.github.io/static/media/Background.bd617a0012929b408ddd.svg",
     "static/media/Montserrat-Bold.ttf": "/double2win.github.io/static/media/Montserrat-Bold.733964aa5261b1af4852.ttf",
@@ -12,12 +12,12 @@
     "static/media/Twitter Icon.svg": "/double2win.github.io/static/media/Twitter Icon.62c1ed99b554b2aca5e05ee5b35e7180.svg",
     "static/media/Medium Icon.svg": "/double2win.github.io/static/media/Medium Icon.49708522fe536266ccb75e9accb29391.svg",
     "index.html": "/double2win.github.io/index.html",
-    "main.0310eab4.css.map": "/double2win.github.io/static/css/main.0310eab4.css.map",
-    "main.0c51adf2.js.map": "/double2win.github.io/static/js/main.0c51adf2.js.map",
+    "main.ffc9c2df.css.map": "/double2win.github.io/static/css/main.ffc9c2df.css.map",
+    "main.085165d2.js.map": "/double2win.github.io/static/js/main.085165d2.js.map",
     "787.3e575537.chunk.js.map": "/double2win.github.io/static/js/787.3e575537.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0310eab4.css",
-    "static/js/main.0c51adf2.js"
+    "static/css/main.ffc9c2df.css",
+    "static/js/main.085165d2.js"
   ]
 }
