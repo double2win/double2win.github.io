@@ -189,3 +189,18 @@
   margin: 0px;
   color:white;
 }
+
+.social-bottom {
+  display: none; 
+}
+
+@media (max-width: 700px) {
+  .social-bottom {
+    display: flex; 
+    justify-content: center;
+  }
+
+  .social-top {
+    display: none;
+  }
+}
